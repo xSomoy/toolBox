@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-echo "Im Just A Transporter"
+echo "Transporter"
+echo "A script to transfer files while you are sleeping..."
+echo ""
 echo "Please Provide Nessesary Informations"
 date=$(date)
 touch ~/transporterReport
