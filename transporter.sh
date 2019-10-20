@@ -24,7 +24,7 @@ function permission() {
                 echo "sleep 1" >> ~/tasklist.sh
                 echo "echo \"Shuting Down Computer In 1 Seconds\" " >> ~/tasklist.sh
                 echo "sleep 1" >> ~/tasklist.sh
-                echo "echo \"Shuting Down Computer At \$(date) \" >> ~/transporterReport " >> ~tasklist.sh
+                echo "echo \"Shuting Down Computer At \$(date) \" >> ~/transporterReport " >> ~/tasklist.sh
                 echo "sleep 1" >> ~/tasklist.sh
                 echo "poweroff" >> ~/tasklist.sh
                 runtasks;;
