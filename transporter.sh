@@ -1,6 +1,25 @@
 #!/usr/bin/env bash
+######################################################
+#                                                    #
+#     Transporter                                    #
+#     Transfer Files While You Are Sleeping...       #
+#                                                    #
+#     Author:     Somoy                              #
+#     Twitter:    www.twitter.com/xSomoy             #
+#     Github:     www.github.com/xSomoy              #
+#     Email:      xSomoy@protonmail.com              #
+#     License:    MIT License                        #
+#                                                    #
+#     Copyright © 2019 Mushphyqur Rahman Tanveer     #
+#                                                    #
+######################################################
+
+version=1.0.0
+
+#######################################################
+
 echo "Transporter"
-echo "A script to transfer files while you are sleeping..."
+echo "Transfer Files While You Are Sleeping..."
 echo ""
 echo "Please Provide Nessesary Informations"
 date=$(date)
@@ -28,7 +47,7 @@ function permission() {
                 echo "sleep 1" >> ~/tasklist.sh
                 echo "poweroff" >> ~/tasklist.sh
                 runtasks;;
-            n)  echo " echo \"All Task Are Done!\" >> ~/transporterReport " >> ~tasklist.sh
+            n)  echo " echo \"All Task Are Done!\" >> ~/transporterReport " >> ~/tasklist.sh
                 runtasks ;;
             *) echo "Please Choose One Of Them"
                     taskManager;;
@@ -61,8 +80,8 @@ function taskCreator() {
     echo "2 - Folder"
     read input;
     case $input in
-            1) type="rsync --progress" ;;
-            2) type="rsync --progress -r" ;;
+            1) type="rsync --progress --log-file=transporterReport" ;;
+            2) type="rsync --progress -r --log-file=transporterReport" ;;
             *) echo "Please Choose One Of Them"
                     taskCreator;;
     esac
@@ -81,3 +100,4 @@ function taskCreator() {
     taskManager
 }
 taskCreator
+# The End
