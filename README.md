@@ -33,7 +33,7 @@ When you are too lazy to calculate for ditrobuting you money....
 It's totally for personal use.
 
 
-# Password strength Score
+# Password Strength Score
 `
 Check how strong your password is....
 `  
