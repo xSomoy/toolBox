@@ -2,14 +2,15 @@
 main()
      {
          /* Var Declare */
+    float verion = 2.0;
     char a;
-    float income, living, dControl, dept;
+    float income, living, dControl, loans;
 
         /* User Input */
 
     printf("Enter Your Income: ");
     scanf("%f",&income);
-    printf("Do You Have Any Dept?(y)");
+    printf("Do You Have Any Loans To Pay?(y)");
     scanf(" %c", &a);
     system("cls");
 
@@ -18,19 +19,19 @@ main()
     living = income /2 ;
     dControl = living /2;
     if (a == 'y') {
-        dept = dControl /2;
+        loans = dControl /2;
             printf("Your Income:      %.2f",income);
             printf("\nLiving:           %.2f",living);
             printf("\nDamage Control:   %.2f",dControl);
-            printf("\nDept:             %.2f",dept);
-            printf("\nSavings:          %.2f",dept);
+            printf("\nloans:             %.2f",loans);
+            printf("\nSavings:          %.2f",loans);
     }
     else {
-        dept = dControl;
+        loans = dControl;
             printf("Your Income:      %.2f",income);
             printf("\nLiving:           %.2f",living);
             printf("\nDamage Control:   %.2f",dControl);
-            printf("\nSavings:          %.2f",dept);
+            printf("\nSavings:          %.2f",loans);
     }
     getch();
 }
