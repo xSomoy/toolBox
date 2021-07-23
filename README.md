@@ -29,6 +29,13 @@ There was a tread going on facebook that they will do a ridiculas thing if a hug
 
 
 
+<table aligh="center">
+  <tr>
+    <td>Total Visits</td>
+    <td><img src="https://profile-counter.glitch.me/xsomoy/count.svg" alt="xSomoy" /></td>
+  </tr>
+</table>
+
 # Password Strength Score
 `
 Check how strong your password is....
