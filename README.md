@@ -29,12 +29,7 @@ There was a tread going on facebook that they will do a ridiculas thing if a hug
 
 
 
-<table aligh="center">
-  <tr>
-    <td>Total Visits</td>
-    <td><img src="https://profile-counter.glitch.me/xsomoy/count.svg" alt="xSomoy" /></td>
-  </tr>
-</table>
+
 
 # Password Strength Score
 `
@@ -54,3 +49,9 @@ For personal and business purpose you can contact me on [Twitter](https://twitte
 
 ## Thank You !!
 
+<table aligh="center">
+  <tr>
+    <td>Total Visits</td>
+    <td><img src="https://profile-counter.glitch.me/xsomoy/count.svg" alt="xSomoy" /></td>
+  </tr>
+</table>
