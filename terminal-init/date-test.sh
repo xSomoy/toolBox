@@ -1,6 +1,12 @@
+# Feb Wed 22:55
 date +"%H:%M"
 date +"%A"
 date +"%A"
 date +"%a"
 date +"%b"
 date +"%I"
+date +"%y"
+date +"%b %a %H:%M"
+date +"%d %b %a %H:%M"
+date +"%d-%b-%a %H:%M"
+date +"%d-%b-%a ▶ %H:%M"
