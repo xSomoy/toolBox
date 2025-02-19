@@ -1,0 +1,6 @@
+date +"%H:%M"
+date +"%A"
+date +"%A"
+date +"%a"
+date +"%b"
+date +"%I"
