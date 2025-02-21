@@ -1,2 +1,0 @@
-d=$(date)
-echo $d
